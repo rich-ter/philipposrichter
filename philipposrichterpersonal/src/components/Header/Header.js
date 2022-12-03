@@ -3,14 +3,14 @@ import React from 'react'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import {Link} from 'react-router-dom'
 
 const navigation = [
-  { name: 'About', href: '#' },
-  { name: 'Work', href: '#' },
-  { name: 'Education', href: '#' },
-  { name: 'Projects', href: '#' },
-  { name: 'Skills', href:'#'},
+  { name: 'About', href: '/about' },
+  { name: 'Work', href: '/work' },
+  { name: 'Education', href: '/education' },
+  { name: 'Projects', href: '/projects' },
+  { name: 'Contact', href:'/contact'},
 ]
 
 const Header = () => {
@@ -49,10 +49,10 @@ const Header = () => {
         <div>
           <nav className="flex h-9 items-center justify-between" aria-label="Global">
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-              <a href="#" className="-m-1.5 p-1.5">
+              <Link to='/' className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
-              </a>
+              </Link>
             </div>
             <div className="flex lg:hidden">
               <button
@@ -66,9 +66,9 @@ const Header = () => {
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
               {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="font-semibold text-gray-900 hover:text-gray-900">
+                <Link to={item.href} key={item.name} className="font-semibold text-gray-900 hover:text-gray-900">
                   {item.name}
-                </a>
+                </Link>
               ))}
             </div>
           </nav>

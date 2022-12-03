@@ -1,30 +1,30 @@
 export const projects = [
   {
     id: 1,
-    name: "",
-    description: "",
+    name: "mock1",
+    description: "mock1 desc",
   },
   {
     id: 2,
-    name: "",
-    description: "",
+    name: "mock2",
+    description: "mock2 descr",
   },
   {
     id: 3,
-    name: "",
-    description: "",
+    name: "mock3 ",
+    description: "mocksPattern",
 
   },
   {
     id: 4,
-    name: "",
-    description: "",
+    name: "mock4",
+    description: "asdfa",
 
   },
   {
     id: 6,
-    name: "",
-    description: "",
+    name: "mock5",
+    description: "asdfasdf",
 
   },
 ];
