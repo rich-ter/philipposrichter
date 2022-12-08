@@ -4,7 +4,7 @@ export const clientprojects = [
     name: "Lydia Kyriakopoulos",
     description: "A modern website for a fashion psychologist with blog functionality designed and implemented on Webflow",
     url: 'https://www.lydiakyriakopoulos.com',
-    image: '../../assets/images/lydiakyriakopoulos.png',
+    image: 'src/assets/images/lydiakyriakopoulos.png',
     technologies: 'Webflow',
   },
   {
