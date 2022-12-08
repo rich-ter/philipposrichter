@@ -9,7 +9,7 @@ import EducationPage from './pages/EducationPage'
 import ContactPage from './pages/ContactPage'
 import ErrorPage from './pages/ErrorPage'
 import SingleProjectPage from './pages/SingleProjectPage';
-
+import Footer from './components/Footer/Footer'
 function App(){
 	return (
 		<BrowserRouter>
@@ -24,6 +24,7 @@ function App(){
         <Route path='/contact' element= {<ContactPage/>}/>
         <Route path='*' element={<ErrorPage/>}/>
 			</Routes>
+      <Footer/>
 		</BrowserRouter>	
 	)
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link, useParams} from 'react-router-dom'
-import {projects} from '../data /projects'
+import {personalprojects} from '../data/personalprojects'
+import {clientprojects} from '../data/clientprojects'
 
 
 // export const projects = [

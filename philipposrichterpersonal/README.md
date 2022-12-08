@@ -7,6 +7,9 @@ this is a personal showcase web application that allows you to upload your
 
 You can create a strapi endpoint to access your data through the api or just configue the mock data under src/data/mockData.json
 
+STYLINNG
+MERAKI UI - TAILWIND CSS BASED UI LIBRARY
+
 this
 
 pages:
