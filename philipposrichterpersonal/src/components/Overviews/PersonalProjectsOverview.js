@@ -5,12 +5,16 @@ import {Typewriter} from 'react-simple-typewriter'
 import {FaGithub, FaStripe, FaGitSquare} from 'react-icons/fa'
 import {SiBootstrap, SiDjango, SiReact, SiAmazonaws, SiMongodb, SiSqlite} from 'react-icons/si'
 import PreviousMap from 'postcss/lib/previous-map';
+import ReactHtmlParser from 'react-html-parser';
 
 
 // TO ADD A PROPS INSIDE THIS COMPONENT TO RENDER REPENDING ON WHAT WE CHOOSE. EITHER PROJETS OR WORK ETC. 
 const PersonalProjectsOverview = () => {
 
+    const something = `<FaStripe> <FaStripe/>`
 
+    function createMarkup() { return {__html: '<FaStripe/>'}; };
+    
 
   return (
 <div>
@@ -38,7 +42,7 @@ const PersonalProjectsOverview = () => {
             <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
         </div>
 
-        {personalprojects.slice(0, 1).map((item) =>(
+        {personalprojects.slice(0, 3).map((item) =>(
         <div class="mt-8 lg:-mx-6 lg:flex lg:items-center" key={item.id}>
 
             <img class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96" src={item.image} alt=""/>
@@ -58,7 +62,9 @@ const PersonalProjectsOverview = () => {
                                <p class="text-sm text-blue-500 uppercase">TECHNOLOGIES</p>
                 <div class="flex space-x-4">
 
-            
+                        {ReactHtmlParser(something)}
+                        <div dangerouslySetInnerHTML={createMarkup()} />
+                        {item.technologies[0]}
 
                     {/* {if item.technologies == 'github'){
                         <FaGitSquare/>
