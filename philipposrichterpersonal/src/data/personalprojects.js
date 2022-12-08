@@ -3,6 +3,10 @@ export const personalprojects = [
     id: 1,
     name: "Django p2p experience marketplace",
     description: "p2p django experience marketplace mock description",
+    image: 'images/p2p.png',
+    technologies: [
+      '<FaStripe/>',
+    ]
   },
   {
     id: 2,
@@ -13,18 +17,6 @@ export const personalprojects = [
     id: 3,
     name: "Custom VPN  ",
     description: "mocksPattern",
-
-  },
-  {
-    id: 4,
-    name: "Web Scrapper",
-    description: "asdfa",
-
-  },
-  {
-    id: 6,
-    name: "mock5",
-    description: "asdfasdf",
 
   },
 ];

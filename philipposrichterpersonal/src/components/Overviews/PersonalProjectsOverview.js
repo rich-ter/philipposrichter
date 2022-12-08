@@ -4,10 +4,14 @@ import { Link } from 'react-router-dom';
 import {Typewriter} from 'react-simple-typewriter'
 import {FaGithub, FaStripe, FaGitSquare} from 'react-icons/fa'
 import {SiBootstrap, SiDjango, SiReact, SiAmazonaws, SiMongodb, SiSqlite} from 'react-icons/si'
+import PreviousMap from 'postcss/lib/previous-map';
 
 
 // TO ADD A PROPS INSIDE THIS COMPONENT TO RENDER REPENDING ON WHAT WE CHOOSE. EITHER PROJETS OR WORK ETC. 
 const PersonalProjectsOverview = () => {
+
+
+
   return (
 <div>
 
@@ -34,15 +38,16 @@ const PersonalProjectsOverview = () => {
             <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
         </div>
 
+        {personalprojects.slice(0, 1).map((item) =>(
+        <div class="mt-8 lg:-mx-6 lg:flex lg:items-center" key={item.id}>
 
-        <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
-            <img class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96" src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"alt=""/>
+            <img class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96" src={item.image} alt=""/>
 
             <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
                 <p class="text-sm text-blue-500 uppercase">category</p>
 
                 <a href="#" class="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-black md:text-3xl">
-                    All the features you want to know
+                    {item.name}
                 </a>
 
                 <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
@@ -50,6 +55,17 @@ const PersonalProjectsOverview = () => {
                     laudantium quia tempore delect
                 </p>
                 <br></br>
+                               <p class="text-sm text-blue-500 uppercase">TECHNOLOGIES</p>
+                <div class="flex space-x-4">
+
+            
+
+                    {/* {if item.technologies == 'github'){
+                        <FaGitSquare/>
+                    }}
+                    {item.technologies}  */}
+
+                </div>
                 <p class="text-sm text-blue-500 uppercase">TECHNOLOGIES</p>
                 <div class="flex space-x-4">
                     <SiDjango size={30}/> 
@@ -64,10 +80,10 @@ const PersonalProjectsOverview = () => {
 
                 <div class="flex items-center mt-6">
                     <FaGithub size={30}/>
-            
                 </div>
             </div>
         </div>
+        ))}
     </div>
 </section>
 </div>

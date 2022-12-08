@@ -1,10 +1,7 @@
 import React from 'react'
 import {clientprojects} from '../../data/clientprojects'
 import { Link } from 'react-router-dom';
-import lkyrimage from '../../assets/images/lydiakyriakopoulos.png'
-import featuredImage from '../../data/clientprojects'
 import {Typewriter} from 'react-simple-typewriter'
-// import '../../assets/images'
 
 // TO ADD A PROPS INSIDE THIS COMPONENT TO RENDER REPENDING ON WHAT WE CHOOSE. EITHER PROJETS OR WORK ETC. 
 const ClientProjectsOverview = () => {
@@ -50,7 +47,6 @@ const ClientProjectsOverview = () => {
                     <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                        {item.description}
                     </p>
-                    <p>{item.image}</p>
                     <p class="mt-3 text-sm text-blue-500">{item.technologies}</p>
                 </div>
             </div>
