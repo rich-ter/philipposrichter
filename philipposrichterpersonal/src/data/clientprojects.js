@@ -5,7 +5,7 @@ export const clientprojects = [
     description: "A modern website for a fashion psychologist with blog functionality designed and implemented on Webflow",
     url: 'https://www.lydiakyriakopoulos.com',
     image: 'images/lydiakyriakopoulos.png',
-    technologies: 'Webflow',
+    technologies: 'Blog / Informational',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const clientprojects = [
     description: "A simple website for a hotel group developed in React js and deployed on Vercel",
     url: 'https://www.alternativeresorts.com',
     image: 'images/alternativeresorts.png',
-    technologies: 'React js, Vercel',
+    technologies: 'Informational',
 
   },
   {
@@ -22,7 +22,7 @@ export const clientprojects = [
     description: "mocksPattern",
     url: '',
     image: 'images/lydiakyriakopoulos.png',
-    technologies: 'Webflow',
+    technologies: 'Informational',
 
   },
   {
@@ -31,16 +31,16 @@ export const clientprojects = [
     description: "asdfa",
     url: '',
     image: 'images/ergo-xylo.png',
-    technologies: 'React & Next js, Vercel',
+    technologies: 'Informational',
 
   },
   {
     id: 6,
     name: "Rafailidis Insurance",
     description: "asdfasdf",
-    url: '',
+    url: 'https://asfraf.com',
     image: "images/asfraf.png",
-    technologies: 'WordPress, AWS Lightsail',
+    technologies: 'Blog / Informational',
 
   },
  {
@@ -49,7 +49,7 @@ export const clientprojects = [
     description: "asdfasdf",
     url: '',
     image: 'images/oribuarts.png',
-    technologies: 'Shopify',
+    technologies: 'E-commerce',
 
   },
 ];
