@@ -18,7 +18,7 @@ const AboutOverview = () => {
                     <h1 class="text-3xl font-semibold text-gray-800 dark:text-black lg:text-5xl">
                          <Typewriter
                             loop
-                            cursor
+                            cursor  
                             cursorStyle='_'
                             typeSpeed={70}
                             deleteSpeed={50}
