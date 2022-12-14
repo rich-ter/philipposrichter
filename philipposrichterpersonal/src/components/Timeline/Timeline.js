@@ -25,10 +25,8 @@ const Timeline = () => {
               •Supervising the whole group marketing mix and reporting on the performance of the organic, paid and affiliate traffic through Google Data Studio and Google Analytics reports. <br></br>
               •Created a one-stop performance cockpit using Salesforce to keep track of a portfolio in excess of 50 licensees, suppliers and investors, enabling tighter and more effective performance management. <br></br>
               •Supervised the web development of more than 6 projects to ensure that the design aligns with the easy branding and ensure that functionality meets the scope as signed on contracts.
-
             </p>
 					</div>
-
 				</div>
 			</div>
 		</div>

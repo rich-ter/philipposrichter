@@ -31,7 +31,7 @@ const AboutOverview = () => {
                         After working in marketing / account management for a venture capital firm, 
                         I decided to follow my passion for coding and technology and to committed to it full-time.  
                         Alongside my work I enrolled at University of Oxfords 1-year Advanced Diploma in computing, where I majored with a distinction. 
-                        This followed an intense 6-month coding bootcamp focusing on Django and React.<br></br> 
+                        This followed an intense 6-month coding bootcamp focusing on Django and React.<br></br> <br></br>
                         I am now looking to enter a 
                         company as a software developer in order to gain an in-depth understanding 
                         of emerging technologies and assist in creating innovative products. 
