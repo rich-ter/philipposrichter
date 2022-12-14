@@ -17,7 +17,7 @@ const PersonalProjectsOverview = () => {
     
 
   return (
-<div>
+<div id="personal-projects">
 
 <section class="bg-white ">
     <div class="container px-6 py-10 mx-auto">

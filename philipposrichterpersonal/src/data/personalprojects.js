@@ -7,23 +7,4 @@ export const personalprojects = [
     technologies: '<FaStripe/>',
     
   },
-  {
-    id: 2,
-    name: "Angelica AI online psychologist",
-    description: "mock2 descr",
-      image: 'images/p2p.png',
-
-      technologies: '<FaStripe/>',
-
-  },
-  {
-    id: 3,
-    name: "Custom VPN  ",
-    description: "mocksPattern",
-      image: 'images/p2p.png',
-
-      technologies: '<FaStripe/>',
-
-
-  },
 ];

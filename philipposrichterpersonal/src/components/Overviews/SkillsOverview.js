@@ -6,7 +6,7 @@ import {SiDjango, SiReact, SiAmazonaws, SiMongodb, SiSqlite} from 'react-icons/s
 
 const SkillsOverview = () => {
   return (
-    <div>
+    <div id="skills">
 
       <section class="bg-white">
 

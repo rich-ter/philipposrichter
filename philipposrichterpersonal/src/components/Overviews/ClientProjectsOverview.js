@@ -6,7 +6,7 @@ import {Typewriter} from 'react-simple-typewriter'
 // TO ADD A PROPS INSIDE THIS COMPONENT TO RENDER REPENDING ON WHAT WE CHOOSE. EITHER PROJETS OR WORK ETC. 
 const ClientProjectsOverview = () => {
   return (
-<div>
+<div id="client-projects">
 
 
 <section class="bg-white">

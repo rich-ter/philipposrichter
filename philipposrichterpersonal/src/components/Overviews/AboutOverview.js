@@ -5,7 +5,7 @@ import Lottie from 'lottie-react'
 
 const AboutOverview = () => {
   return (
-  <div>
+  <div id="about">
         
 <header class="bg-white dark:bg-gray-100">
 

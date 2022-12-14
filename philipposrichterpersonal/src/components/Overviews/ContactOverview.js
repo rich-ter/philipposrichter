@@ -7,7 +7,7 @@ import {FaGithub, FaLinkedin, FaLocationArrow, FaQuestionCircle} from 'react-ico
 
 const ContactOverview = () => {
   return (
-    <div>
+    <div id="contact">
 <section class="min-h-screen bg-white">
     <div class="container px-6 py-10 mx-auto">
         <div class="lg:flex lg:items-center lg:-mx-10">

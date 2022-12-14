@@ -16,12 +16,12 @@ function App(){
       <Header/>
 			<Routes>
 				<Route path='/' element = {<HomePage/>} />
-        <Route path='/about' element= {<AboutPage/>}/>
+        {/* <Route path='/about' element= {<AboutPage/>}/>
         <Route path='/work' element= {<WorkPage/>}/>
         <Route path='/education' element= {<EducationPage/>}/>
         <Route path='/projects' element= {<ProjectsPage/>}/>
         <Route path='/projects/:projectId' element={<SingleProjectPage/>}/>
-        <Route path='/contact' element= {<ContactPage/>}/>
+        <Route path='/contact' element= {<ContactPage/>}/> */}
         <Route path='*' element={<ErrorPage/>}/>
 			</Routes>
       <Footer/>
