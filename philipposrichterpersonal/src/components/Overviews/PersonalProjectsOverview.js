@@ -59,19 +59,20 @@ const PersonalProjectsOverview = () => {
                     laudantium quia tempore delect
                 </p>
                 <br></br>
-                               <p class="text-sm text-blue-500 uppercase">TECHNOLOGIES</p>
+                               {/* <p class="text-sm text-blue-500 uppercase">TECHNOLOGIES</p>
                 <div class="flex space-x-4">
 
                         {ReactHtmlParser(something)}
                         <div dangerouslySetInnerHTML={createMarkup()} />
                         {item.technologies[0]}
 
-                    {/* {if item.technologies == 'github'){
+                    {if item.technologies == 'github'){
                         <FaGitSquare/>
                     }}
-                    {item.technologies}  */}
+                    {item.technologies} 
 
-                </div>
+                </div> */}
+
                 <p class="text-sm text-blue-500 uppercase">TECHNOLOGIES</p>
                 <div class="flex space-x-4">
                     <SiDjango size={30}/> 

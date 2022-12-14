@@ -23,12 +23,13 @@ const AboutOverview = () => {
                             typeSpeed={70}
                             deleteSpeed={50}
                             delaySpeed={1000}
-                            words={['Hello World!', 'This website is about', 'Philippos J. Richter']}
+                            words={['Hello World!']}
                         />
                     </h1>
                     
                     <p class="mt-4 text-gray-900 dark:text-black-400 ">This is a personal portfolio custom web app using React js for the front-end, Strapi as a back-end headless CMS hosted on Vercel and AWS respectively.</p>
-                    <p> Some of the main packages used for this project: react-lottie, react-icons, react-router-dom</p>
+                    <p> Styling: tailwind css and meraki UI components </p>
+                    <p>Packages: react-lottie, react-router-dom </p>
                 </div>
             </div>
 
