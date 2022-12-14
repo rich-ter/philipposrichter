@@ -2,45 +2,37 @@ import React from 'react'
 
 const Timeline = () => {
   return (
-            <div class="container my-24 px-6 mx-auto">
-
     <div>
-      <ol class="border-l-2 border-blue-600">
-  <li>
-    <div class="flex flex-start items-center ">
-      <div class="bg-blue-600 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2"></div>
-      <h4 class="text-gray-800 font-semibold text-xl -mt-2">Title of section 1</h4>
-    </div>
-    <div class="ml-6 mb-6 pb-6">
-      <a href="#!" class="text-blue-600 hover:text-blue-700 focus:text-blue-800 duration-300 transition ease-in-out text-sm">4 February, 2022</a>
-      <p class="text-gray-700 mt-2 mb-4">commodo consequat.</p>
-      <button type="button" class="inline-block px-4 py-1.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Read more</button>
-    </div>
-  </li>
-  <li>
-    <div class="flex flex-start items-center">
-      <div class="bg-blue-600 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2"></div>
-      <h4 class="text-gray-800 font-semibold text-xl -mt-2">Title of section 2</h4>
-    </div>
-    <div class="ml-6 mb-6 pb-6">
-      <a href="#!" class="text-blue-600 hover:text-blue-700 focus:text-blue-800 duration-300 transition ease-in-out text-sm">12 January, 2022</a>
-      <p class="text-gray-700 mt-2 mb-4">Sit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-      <button type="button" class="inline-block px-4 py-1.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Read more</button>
-    </div>
-  </li>
-  <li>
-    <div class="flex flex-start items-center">
-      <div class="bg-blue-600 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2"></div>
-      <h4 class="text-gray-800 font-semibold text-xl -mt-2">Title of section 3</h4>
-    </div>
-    <div class="ml-6 mb-6 pb-6">
-      <a href="#!" class="text-blue-600 hover:text-blue-700 focus:text-blue-800 duration-300 transition ease-in-out text-sm">27 December, 2021</a>
-      <p class="text-gray-700 mt-2 mb-4">olorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-      <button type="button" class="inline-block px-4 py-1.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Read more</button>
-    </div>
-  </li>
-</ol>
-    </div>
+	<div className="container max-w-5xl    mx-auto">
+		<div className="grid gap-4 mx-4 sm:grid-cols-12">
+			<div className="col-span-12 sm:col-span-3">
+			</div>
+			<div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
+				<div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-700">
+					<div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-400">
+						<h3 className="text-xl font-semibold tracking-wide">Junior Web Developer </h3>
+						<time className="text-xs tracking-wide uppercase dark:text-gray-400">May 2022 - Present</time>
+						<p className="mt-3">
+              •Interacted with clients, captured requirements and proposed digital solutions to meet their business needs. <br></br>
+              •Designed websites using CMS platforms such as WordPress, Shopify and Webflow.<br></br>
+              •Designed and deployed 2 React Js websites on Vercel fetching data from a Strapi headless CMS server.
+            </p>
+					</div>
+					<div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-400">
+						<h3 className="text-xl font-semibold tracking-wide">Senior Marketing Coordinator</h3>
+						<time className="text-xs tracking-wide uppercase dark:text-gray-400">May 2018 - May 2022</time>
+						<p className="mt-3">
+              •Supervising the whole group marketing mix and reporting on the performance of the organic, paid and affiliate traffic through Google Data Studio and Google Analytics reports. <br></br>
+              •Created a one-stop performance cockpit using Salesforce to keep track of a portfolio in excess of 50 licensees, suppliers and investors, enabling tighter and more effective performance management. <br></br>
+              •Supervised the web development of more than 6 projects to ensure that the design aligns with the easy branding and ensure that functionality meets the scope as signed on contracts.
+
+            </p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
     </div>
   )
 }
