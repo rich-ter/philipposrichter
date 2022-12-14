@@ -10,6 +10,7 @@
     "buffer": "^6.0.3",
     "html-react-parser": "^3.0.4",
     "react-html-parser": "^2.0.2",
+    "react-particles-js": "^3.6.0",
     "react-router-dom": "^6.4.4",
     "ts-loader": "^9.4.2",
     "webpack": "^5.75.0",
